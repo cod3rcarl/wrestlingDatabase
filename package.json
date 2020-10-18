@@ -1,5 +1,5 @@
 {
-  "name": "hackathon-energiser-score-tracker-expressox2",
+  "name": "wrestler-database",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,14 +22,6 @@
     "changeTable": "node -r dotenv/config db/scripts/changeTable.js",
     "updateTable": "node -r dotenv/config db/scripts/updateTable.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SchoolOfCode/hackathon-energiser-score-tracker-expressox2.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SchoolOfCode/hackathon-energiser-score-tracker-expressox2/issues"
-  },
-  "homepage": "https://github.com/SchoolOfCode/hackathon-energiser-score-tracker-expressox2#readme"
+  "license": "ISC"
 }
