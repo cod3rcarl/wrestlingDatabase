@@ -16,11 +16,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js",
     "dev": "node -r dotenv/config app.js",
     "createTable": "node -r dotenv/config db/scripts/createTable.js",
     "changeTable": "node -r dotenv/config db/scripts/changeTable.js",
     "updateTable": "node -r dotenv/config db/scripts/updateTable.js"
-    
   },
   "repository": {
     "type": "git",
