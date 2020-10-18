@@ -38,8 +38,10 @@ async function wrestlerInfo() {
     
   if (d3 < dlost && d3 > dwon) { 
     console.log("success")
-    superstar.innerText = champion
-  } 
+    superstar.innerText = champion;
+  } else console.log("fail");
+  
+  
 })
 
 };

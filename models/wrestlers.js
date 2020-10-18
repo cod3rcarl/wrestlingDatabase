@@ -20,7 +20,7 @@ async function populateTable(){
 } 
 
 async function getWrestlerByDate() {
-    let result = await query(`SELECT * FROM wweTitle`);
+    let result = await query(`SELECT * FROM wweTitle LIMIT 1`);
     return result.rows;
     }
 
