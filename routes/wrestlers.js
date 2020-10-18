@@ -6,6 +6,7 @@ const {getWrestlerByDate} = require("../models/wrestlers")
 router.get("/", async function(req, res){
 
   let result = await getWrestlerByDate(req.body);
+  console.log(result)
   
   res.json({payload: result});
   

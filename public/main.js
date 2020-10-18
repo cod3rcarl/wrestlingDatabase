@@ -15,8 +15,9 @@ async function wrestlerInfo() {
 
   const response = await fetch('http://localhost:5000/wrestlers');
   const data = await response.json();
+  console.log(data)
   data.payload.forEach((item) => {
-
+console.log(item)
   let dateOne = item.datelost;
  
   let dateTwo = item.datewon;
@@ -38,10 +39,8 @@ async function wrestlerInfo() {
     
   if (d3 < dlost && d3 > dwon) { 
     console.log("success")
-    superstar.innerText = champion;
-  } else console.log("fail");
-  
-  
+    superstar.innerText = champion
+  } 
 })
 
 };
