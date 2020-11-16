@@ -1,7 +1,7 @@
 const submitButton = document.querySelector("#submit-button");
 let dateValue = document.querySelector("#dateInput");
 const superstar = document.querySelector(".superstar");
-let url = process.env.PG_URL || "http://localhost:5000";
+let url = "http://localhost:5000";
 // const allDataButton = document.querySelector("#displayAllData")
 
 submitButton.addEventListener("click", wrestlerInfo);
@@ -11,7 +11,7 @@ console.log("working");
 async function wrestlerInfo() {
   let value = dateValue.value;
 
-  const response = await fetch(`${url}/wrestlers`);
+  const response = await fetch(`http://localhost:5000/wrestlers`);
   const data = await response.json();
 
   data.payload.forEach((item) => {
