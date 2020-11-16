@@ -1,0 +1,154 @@
+champion ,dateWon,dateLost,Show,previousChampion 
+Drew McIntyre,05/04/2020,18/10/2020,WrestleMania 36 - Night 2,Brock Lesnar
+Brock Lesnar,04/10/2019,05/04/2020,SmackDown's,Kofi Kingston
+Kofi Kingston,07/04/2019,04/10/2019,WrestleMania 35,Daniel Bryan
+Daniel Bryan,13/11/2018,07/04/2019,SmackDown,AJ Styles
+AJ Styles,07/11/2017,13/11/2018,SmackDown,Jinder Mahal
+Jinder Mahal,21/05/2017,07/11/2017,Back+F7lash,Randy Orton
+Randy Orton,02/04/2017,21/05/2017,WrestleMania 33,Bray Wyatt
+Bray Wyatt,12/02/2017,02/04/2017,Elimination Chamber,John Cena
+John Cena,29/01/2017,12/02/2017,Royal Rumble,AJ Styles
+AJ Styles,11/09/2016,29/01/2017,Backlash,Dean Ambrose
+Seth Rollins,19/06/2016,19/06/2016,Money in the Bank,Roman Reigns
+Dean Ambrose,19/06/2016,11/09/2016,Money in the Bank,Seth Rollins
+Roman Reigns,03/04/2016,19/06/2016,WrestleMania 32,Triple H
+Triple H,24/01/2016,03/04/2016,Royal Rumble,Roman Reigns
+Roman Reigns,14/12/2015,24/01/2016,Raw,Sheamus
+Roman Reigns,22/11/2015,22/11/2015,Survivor Series,Vacated
+Sheamus,22/11/2015,14/12/2015,Survivor Series,Roman Reigns
+Vacated,04/11/2015,22/11/2015,The Title was Vacant,Seth Rollins
+Seth Rollins,29/03/2015,04/11/2015,WrestleMania 31,Brock Lesnar
+Brock Lesnar,17/08/2014,29/03/2015,SummerSlam,John Cena
+John Cena,29/06/2014,17/08/2014,Money in the Bank,Vacated
+Vacated,09/06/2014,29/06/2014,Raw,Daniel Bryan
+Daniel Bryan,06/04/2014,09/06/2014,WrestleMania XXX,Randy Orton
+Randy Orton,27/10/2013,06/04/2014,Hell in a Cell,Vacated
+Vacated,16/09/2013,27/10/2013,Raw,Daniel Bryan
+Daniel Bryan,15/09/2013,16/09/2013,Night of Champions,Randy Orton
+Daniel Bryan,18/08/2013,18/08/2013,SummerSlam,John Cena
+Randy Orton,18/08/2013,15/09/2013,SummerSlam,Daniel Bryan
+John Cena,07/04/2013,18/08/2013,WrestleMania 29,The Rock
+The Rock,27/01/2013,07/04/2013,Royal Rumble,CM Punk
+CM Punk,20/11/2011,27/01/2013,Survivor Series,Alberto Del Rio
+Alberto Del Rio,02/10/2011,20/11/2011,Hell in a Cell,John Cena
+John Cena,18/09/2011,02/10/2011,Night of Champions,Alberto Del Rio
+CM Punk,14/08/2011,14/08/2011,SummerSlam,John Cena
+Alberto Del Rio,14/08/2011,18/09/2011,SummerSlam,CM Punk
+Rey Mysterio,25/07/2011,25/07/2011,Raw,Vacated
+John Cena,25/07/2011,14/08/2011,Raw,Rey Mysterio
+Vacated,18/07/2011,25/07/2011,Raw,CM Punk
+CM Punk,17/07/2011,18/07/2011,Money in the Bank,John Cena
+John Cena,01/05/2011,17/07/2011,Extreme Rules,The Miz
+The Miz,22/11/2010,01/05/2011,Raw,Randy Orton
+Randy Orton,19/09/2010,22/11/2010,Night of Champions,Sheamus
+Sheamus,20/06/2010,19/09/2010,Fatal 4-Way,John Cena
+John Cena,28/03/2010,20/06/2010,WrestleMania XXVI,Batista
+John Cena,21/02/2010,21/02/2010,Elimination Chamber,Sheamus
+Batista,21/02/2010,28/03/2010,Elimination Chamber,John Cena
+Sheamus,13/12/2009,21/02/2010,"TLC: Tables, Ladders & Chairs",John Cena
+John Cena,25/10/2009,13/12/2009,Bragging Rights,Randy Orton
+Randy Orton,04/10/2009,25/10/2009,Hell in a Cell,John Cena
+John Cena,13/09/2009,04/10/2009,Breaking Point,Randy Orton
+Randy Orton,15/06/2009,13/09/2009,Raw,Vacated
+Vacated,09/06/2009,15/06/2009,The Title was Vacant,Batista
+Batista,07/06/2009,09/06/2009,Extreme Rules,Randy Orton
+Randy Orton,26/04/2009,07/06/2009,Backlash,Triple H
+Triple H,15/02/2009,26/04/2009,No Way Out,Edge
+Edge,25/01/2009,15/02/2009,Royal Rumble,Jeff Hardy
+Jeff Hardy,14/12/2008,25/01/2009,Armageddon,Edge
+Edge,23/11/2008,14/12/2008,Survivor Series,Triple H
+Triple H,27/04/2008,23/11/2008,Backlash,Randy Orton
+Randy Orton,07/10/2007,07/10/2007,No Mercy,Vacated
+Triple H,07/10/2007,07/10/2007,No Mercy,Randy Orton
+Randy Orton,07/10/2007,27/04/2008,No Mercy,Triple H
+Vacated,02/10/2007,07/10/2007,ECW,John Cena
+John Cena,17/09/2006,02/10/2007,Unforgiven,Edge
+Edge,03/07/2006,17/09/2006,Raw,Rob Van Dam
+Rob Van Dam,11/06/2006,03/07/2006,ECW One Night Stand,John Cena
+John Cena,29/01/2006,11/06/2006,Royal Rumble,Edge
+Edge,08/01/2006,29/01/2006,New Year's Revolution,John Cena
+John Cena,03/04/2005,08/01/2006,WrestleMania 21,John Bradshaw Layfield
+John Bradshaw Layfield,27/06/2004,03/04/2005,The Great American Bash,Eddie Guerrero
+Eddie Guerrero,15/02/2004,27/06/2004,No Way Out,Brock Lesnar
+Brock Lesnar,16/09/2003,15/02/2004,SmackDown!,Kurt Angle
+Kurt Angle,27/07/2003,16/09/2003,Vengeance,Brock Lesnar
+Brock Lesnar,30/03/2003,27/07/2003,WrestleMania XIX,Kurt Angle
+Kurt Angle,15/12/2002,30/03/2003,Armageddon,Big Show
+Big Show,17/11/2002,15/12/2002,Survivor Series,Brock Lesnar
+Brock Lesnar,25/08/2002,17/11/2002,SummerSlam,The Rock
+The Rock,21/07/2002,25/08/2002,Vengeance,The Undertaker
+The Undertaker,19/05/2002,21/07/2002,Judgment Day,Hollywood Hulk Hogan
+Hollywood Hulk Hogan,21/04/2002,19/05/2002,Backlash,Triple H
+Triple H,17/03/2002,21/04/2002,WrestleMania X8,Chris Jericho
+Chris Jericho,09/12/2001,17/03/2002,Vengeance,Stone Cold Steve Austin
+Stone Cold Steve Austin,08/10/2001,09/12/2001,Raw,Kurt Angle
+Kurt Angle,23/09/2001,08/10/2001,Unforgiven,Stone Cold Steve Austin
+Stone Cold Steve Austin,01/04/2001,23/09/2001,WrestleMania X-Seven,The Rock
+The Rock,25/02/2001,01/04/2001,No Way Out,Kurt Angle
+Kurt Angle,22/10/2000,25/02/2001,No Mercy,The Rock
+The Rock,25/06/2000,22/10/2000,King of the Ring,Triple H
+Triple H,21/05/2000,25/06/2000,Judgment Day,The Rock
+The Rock,30/04/2000,21/05/2000,Backlash,Triple H
+Triple H,03/01/2000,30/04/2000,Raw,Big Show
+Big Show,14/11/1999,03/01/2000,Survivor Series,Triple H
+Triple H,26/09/1999,14/11/1999,Unforgiven,Vacated
+Vacated,20/09/1999,26/09/1999,Raw,Vince McMahon
+Vince McMahon,14/09/1999,20/09/1999,SmackDown!,Triple H
+Triple H,23/08/1999,14/09/1999,Raw,Mankind
+Mankind,22/08/1999,23/08/1999,SummerSlam,Stone Cold Steve Austin
+Stone Cold Steve Austin,28/06/1999,22/08/1999,Raw,The Undertaker
+The Undertaker,23/05/1999,28/06/1999,Over the Edge,Stone Cold Steve Austin
+Stone Cold Steve Austin,28/03/1999,23/05/1999,WrestleMania XV,The Rock
+The Rock,15/02/1999,28/03/1999,Raw,Mankind
+Mankind,26/01/1999,15/02/1999,Halftime Heat,The Rock
+The Rock,24/01/1999,26/01/1999,Royal Rumble,Mankind
+Mankind,29/12/1998,24/01/1999,Raw,The Rock
+The Rock,15/11/1998,29/12/1998,Survivor Series,Vacated
+Vacated,27/09/1998,15/11/1998,Breakdown: In Your House,Stone Cold Steve Austin
+Stone Cold Steve Austin,29/06/1998,27/09/1998,Raw,Kane
+Kane,28/06/1998,29/06/1998,King of the Ring,Stone Cold Steve Austin
+Stone Cold Steve Austin,29/03/1998,28/06/1998,WrestleMania XIV,Shawn Michaels
+Shawn Michaels,09/11/1997,29/03/1998,Survivor Series,Bret Hart
+Bret Hart,03/08/1997,09/11/1997,SummerSlam,The Undertaker
+The Undertaker,23/03/1997,03/08/1997,WrestleMania 13,Sycho Sid
+Sycho Sid,17/02/1997,23/03/1997,Raw,Bret Hart
+Bret Hart,16/02/1997,17/02/1997,In Your House 13: Final Four,Vacated
+Vacated,13/02/1997,16/02/1997,Raw,Shawn Michaels
+Shawn Michaels,19/01/1997,13/02/1997,Royal Rumble,Sycho Sid
+Sycho Sid,17/11/1996,19/01/1997,Survivor Series,Shawn Michaels
+Shawn Michaels,31/03/1996,17/11/1996,WrestleMania XII,Bret Hart
+Bret Hart,19/11/1995,31/03/1996,Survivor Series,Diesel
+Diesel,26/11/1994,19/11/1995,House show,Bob Backlund
+Bob Backlund,23/11/1994,26/11/1994,Survivor Series,Bret Hart
+Bret Hart,20/03/1994,23/11/1994,WrestleMania X,Yokozuna
+Yokozuna,13/06/1993,20/03/1994,King of the Ring,Hulk Hogan
+Yokozuna,04/04/1993,04/04/1993,WrestleMania IX,Bret Hart
+Hulk Hogan,04/04/1993,13/06/1993,WrestleMania IX,Yokozuna
+Bret Hart,12/10/1992,04/04/1993,House show,Ric Flair
+Ric Flair,01/09/1992,12/10/1992,Prime Time Wrestling,Randy Savage
+Randy Savage,05/04/1992,01/09/1992,WrestleMania VIII,Ric Flair
+Ric Flair,19/01/1992,05/04/1992,Royal Rumble,Vacated
+Vacated,04/12/1991,19/01/1992,Superstars of Wrestling,Hulk Hogan
+Hulk Hogan,03/12/1991,04/12/1991,This Tuesday in Texas,The Undertaker
+The Undertaker,27/11/1991,03/12/1991,Survivor Series,Hulk Hogan
+Hulk Hogan,24/03/1991,27/11/1991,WrestleMania VII,Sgt. Slaughter
+Sgt. Slaughter,19/01/1991,24/03/1991,Royal Rumble,The Ultimate Warrior
+The Ultimate Warrior,01/04/1990,19/01/1991,WrestleMania VI,Hulk Hogan
+Hulk Hogan,02/04/1989,01/04/1990,WrestleMania V,Randy Savage
+Randy Savage,27/03/1988,02/04/1989,WrestleMania IV,Vacated
+Vacated,13/02/1988,27/03/1988,Superstars of Wrestling,Ted DiBiase
+André the Giant,05/02/1988,05/02/1988,The Main Event I,Hulk Hogan
+Ted DiBiase,05/02/1988,13/02/1988,The Main Event I,André the Giant
+Hulk Hogan,23/01/1984,05/02/1988,WWF on MSG Network,The Iron Sheik
+The Iron Sheik,26/12/1983,23/01/1984,WWF on MSG Network,Bob Backlund
+Bob Backlund,17/12/1979,26/12/1983,WWF on MSG Network,Vacated
+Vacated,06/12/1979,17/12/1979,The Title was Vacant,Antonio Inoki
+Antonio Inoki,30/11/1979,06/12/1979,Toukon Series,Bob Backlund
+Bob Backlund,20/02/1978,30/11/1979,WWF on MSG Network,Superstar Billy Graham
+Superstar Billy Graham,30/04/1977,20/02/1978,House show,Bruno Sammartino
+Bruno Sammartino,10/12/1973,30/04/1977,House show,Stan Stasiak
+Stan Stasiak,01/12/1973,10/12/1973,House show,Pedro Morales
+Pedro Morales,08/02/1971,01/12/1973,House show,Ivan Koloff
+Ivan Koloff,18/01/1971,08/02/1971,House show,Bruno Sammartino
+Bruno Sammartino,17/05/1963,18/01/1971,House show,Buddy Rogers
+Buddy Rogers,04/11/1963,17/05/1963,House show,The First Champion. 
