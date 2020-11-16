@@ -7,6 +7,7 @@ router.get("/", async function (req, res) {
   let result = await getWrestlerByDate(req.body);
 
   res.json({ payload: result });
+  console.log(result);
 });
 
 module.exports = router;
