@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-
+const url =
+  process.env.REACT_APP_BACKEND_URL || `http://localhost:5000/wrestlers`;
 const WWE = () => {
   const [wrestler, setWrestler] = useState("Wrestler will appear here");
   const [date, setDate] = useState("");
 
   async function getWrestlerInfo() {
-    const res = await fetch(`http://localhost:5000/wrestlers`);
+    const res = await fetch(`${url}`);
     const data = await res.json();
     data.payload.forEach((item) => {
       const dateLost = item.datelost;
