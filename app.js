@@ -11,13 +11,14 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors());
-app.use("/", (req, res, next) => {
-  res.status(200).json({
-    success: true,
-    message: "Welcome to WWDatabase go to /wrestlers for info",
-  });
-});
+
 app.use("/wrestlers", wrestlersRouter);
+// app.use("/", (req, res, next) => {
+//   res.status(200).json({
+//     success: true,
+//     message: "Welcome to WWDatabase go to /wrestlers for info",
+//   });
+// });
 
 app.listen(process.env.PORT || port, () =>
   console.log(`Server is running...${port}`)
