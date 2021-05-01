@@ -1114,4 +1114,4 @@ wweChampions = wweChampions.map((champion, index) => {
   return { ...champion, id: index + 1 };
 });
 
-export { wweChampions };
+module.exports = { wweChampions };
