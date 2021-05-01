@@ -1,27 +1,28 @@
-const express = require("express");
-const logger = require("morgan");
-const cookieParser = require("cookie-parser");
-const cors = require("cors");
-const app = express();
-const port = 5000;
-const wrestlersRouter = require("./routes/wrestlers");
+const { ApolloServer, gql } = require('apollo-server');
+const { wweChampions } = require('./champions');
 
-app.use(logger("dev"));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(cors());
+const typeDefs = gql`
+  type Champion {
+    champion: String!
+    dateWon: String
+    dateLost: String
+    Show: String!
+    previousChampion: String
+  }
 
-app.use("/wrestlers", wrestlersRouter);
-// app.use("/", (req, res, next) => {
-//   res.status(200).json({
-//     success: true,
-//     message: "Welcome to WWDatabase go to /wrestlers for info",
-//   });
-// });
+  type Query {
+    champions: [Champion]
+  }
+`;
 
-app.listen(process.env.PORT || port, () =>
-  console.log(`Server is running...${port}`)
-);
+const resolvers = {
+  Query: {
+    champions: () => wweChampions,
+  },
+};
 
-module.exports = app;
+const server = new ApolloServer({ typeDefs, resolvers });
+
+server.listen().then(({ url }) => {
+  console.log(`Server ready at ${url}`);
+});
