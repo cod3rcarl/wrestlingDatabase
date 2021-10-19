@@ -26,7 +26,7 @@
     "schema": "src/prisma/schema.prisma"
   },
   "scripts": {
-    "build": "rimraf ./build && tsc",
+    "build": "rimraf ./build",
     "start": "npm run build && node build/index.js",
     "dev": "nodemon src/index.js",
     "prisma.migrate": "npx prisma migrate dev"
