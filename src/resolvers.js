@@ -7,6 +7,10 @@ export default {
       { championFilter, dateFilter, currentChampion },
       { champion }
     ) => {
+      console.log(parent)
+      console.log(championFilter)
+      console.log(dateFilter)
+      console.log(currentChampion)
       if (championFilter) {
         return champion.findMany({
           where: { titleHolder: championFilter },
