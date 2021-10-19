@@ -27,7 +27,7 @@
   },
   "scripts": {
     "build": "rimraf ./build",
-    "start": "npm run build && node build/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "prisma.migrate": "npx prisma migrate dev"
   },
