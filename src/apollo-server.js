@@ -1,5 +1,5 @@
-import { createServer } from 'http'
 import express from 'express'
+import cors from 'cors'
 import { ApolloServer } from 'apollo-server-express'
 
 import typeDefs from './typeDefs.js'
@@ -23,7 +23,7 @@ const createApolloServer = async ({ database = undefined } = {}) => {
   })
 
   const app = express()
-  const httpServer = createServer(app)
+  app.use(cors())
 
   app.use(express.json())
   app.use(express.urlencoded({ limit: `25mb`, extended: false }))
@@ -31,8 +31,6 @@ const createApolloServer = async ({ database = undefined } = {}) => {
   const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
-    introspection: true,
-    playground: true,
     context: prisma,
   })
   await apolloServer.start()
@@ -42,7 +40,7 @@ const createApolloServer = async ({ database = undefined } = {}) => {
     path: '/api',
   })
 
-  return { apolloServer, httpServer, prismaClient: prisma }
+  return { apolloServer, app, prismaClient: prisma }
 }
 
 export default createApolloServer
