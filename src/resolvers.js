@@ -32,7 +32,9 @@ export default {
         ]
       }
 
-      return champion.findMany()
+      const champions = await champion.findMany()
+      console.log(champions)
+      return champions
     },
   },
 
