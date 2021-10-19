@@ -12,7 +12,11 @@ const parseDatabaseConnString = (dbName) => {
   return `postgresql://${process.env.POSTGRES_USER}:${process.env.POSTGRES_PASSWORD}@${process.env.POSTGRES_HOST}:${process.env.POSTGRES_PORT}/${database}?schema=public`
 }
 
-const createApolloServer = async ({ database = undefined } = {}) => {
+const createApolloServer = async ({
+  database = undefined,
+  introspection = true,
+  playground = false,
+} = {}) => {
   const { PrismaClient } = PrismaModule
   const prisma = new PrismaClient({
     datasources: {
@@ -31,6 +35,8 @@ const createApolloServer = async ({ database = undefined } = {}) => {
   const apolloServer = new ApolloServer({
     typeDefs,
     resolvers,
+    playground,
+    introspection,
     context: prisma,
   })
   await apolloServer.start()
