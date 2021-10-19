@@ -6,7 +6,7 @@ dotenv.config()
 const playground = process.env.NODE_ENV === `development`
 const { httpServer, prismaClient } = await createApolloServer({ playground })
 
-const port = process.env.GRAPHQL_PORT ?? 8080
+const port = process.env.PORT || 8080
 
 httpServer.listen({ port }, () => {
   console.log(`Apollo Server on http://localhost:${port}/api`)
