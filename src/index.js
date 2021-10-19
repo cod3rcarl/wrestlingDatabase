@@ -1,54 +1,15 @@
-import { createServer } from 'http'
-import express from 'express'
-import { ApolloServer } from 'apollo-server-express'
+import dotenv from 'dotenv'
+import createApolloServer from './apollo-server.js'
 
-import typeDefs from './typeDefs.js'
-import resolvers from './resolvers.js'
+dotenv.config()
 
-import PrismaModule from '@prisma/client'
+const playground = process.env.NODE_ENV === `development`
+const { httpServer, prismaClient } = await createApolloServer({ playground })
 
-const parseDatabaseConnString = (dbName) => {
-  const database = dbName ?? process.env.POSTGRES_DB
-  return `postgresql://${process.env.POSTGRES_USER}:${process.env.POSTGRES_PASSWORD}@${process.env.POSTGRES_HOST}:${process.env.POSTGRES_PORT}/${database}?schema=public`
-}
+const port = process.env.GRAPHQL_PORT ?? 8080
 
-const createApolloServer = async ({ database = undefined } = {}) => {
-  const { PrismaClient } = PrismaModule
-  const prisma = new PrismaClient({
-    datasources: {
-      db: {
-        url: parseDatabaseConnString(database),
-      },
-    },
-  })
+httpServer.listen({ port }, () => {
+  console.log(`Apollo Server on http://localhost:${port}/api`)
+})
 
-  const app = express()
-  const httpServer = createServer(app)
-
-  app.use(express.json())
-  app.use(express.urlencoded({ limit: `25mb`, extended: false }))
-
-  const apolloServer = new ApolloServer({
-    typeDefs,
-    resolvers,
-    context: prisma,
-  })
-  await apolloServer.start()
-
-  apolloServer.applyMiddleware({
-    app,
-    path: '/api',
-  })
-
-  const port = 4000
-
-  httpServer.listen({ port }, () => {
-    console.log(`Apollo Server on http://localhost:${port}/api`)
-  })
-
-  prisma.$disconnect()
-
-  return { apolloServer, httpServer, prisma }
-}
-
-createApolloServer()
+prismaClient.$disconnect()
