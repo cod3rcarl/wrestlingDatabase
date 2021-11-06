@@ -9,17 +9,19 @@ datasource db {
 
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native"]
 }
 
 model Champion {
-  id                   Int         @id @default(autoincrement())
+  id                   String       @id @default(uuid())
   titleHolder          String
-  dateWon              DateTime    
-  dateLost             DateTime?    
+  titleHolderNumber    Int?
+  dateWon              DateTime
+  dateLost             DateTime?
   show                 String
   previousChampion     String?
   currentChampion      Boolean?
-  
+
 
     @@map(name: "champion")
 }

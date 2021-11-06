@@ -1,11 +1,36 @@
-export default async (_, args, { prisma }) => {
-  const { champion, dateWon, show } = args.input
-  const previousChampion = await prisma.client.champion.findFirst()
+export default async (parent, args, champion) => {
+  const { titleHolder, dateWon, show } = args.input
+  const previousChampion = await champion.findFirst()
+
+  if (previousChampion.currentChampion) {
+    const updateOldChamp = await champion.update({
+      where: {
+        id: previousChampion.id,
+      },
+      data: {
+        dateLost: new Date(dateWon),
+        currentChampion: false,
+      },
+    })
+
+    const newChamp = {
+      titleHolder,
+      show,
+      dateWon: new Date(dateWon),
+      previousChampion,
+      currentChampion: true,
+    }
+    if (!updateOldChamp.currentChampion) {
+      await champion.create({
+        data: newChamp,
+      })
+    } else {
+      throw new Error('Unable to create new entry')
+    }
+  }
 
   return {
-    champion,
-    show,
-    dateWon,
-    previousChampion: previousChampion?.champion,
+    success: true,
+    champion: newChamp,
   }
 }
