@@ -72,18 +72,18 @@ let wweChampions = [
     previousChampion: 'Dean Ambrose',
   },
   {
-    titleHolder: 'Seth Rollins',
-    dateWon: '06-19-2016',
-    dateLost: '06-19-2016',
-    show: 'Money in the Bank',
-    previousChampion: 'Roman Reigns',
-  },
-  {
     titleHolder: 'Dean Ambrose',
     dateWon: '06-19-2016',
     dateLost: '09-11-2016',
     show: 'Money in the Bank',
     previousChampion: 'Seth Rollins',
+  },
+  {
+    titleHolder: 'Seth Rollins',
+    dateWon: '06-19-2016',
+    dateLost: '06-19-2016',
+    show: 'Money in the Bank',
+    previousChampion: 'Roman Reigns',
   },
   {
     titleHolder: 'Roman Reigns',
@@ -107,18 +107,18 @@ let wweChampions = [
     previousChampion: 'Sheamus',
   },
   {
-    titleHolder: 'Roman Reigns',
-    dateWon: '11-22-2015',
-    dateLost: '11-22-2015',
-    show: 'Survivor Series',
-    previousChampion: 'Vacated',
-  },
-  {
     titleHolder: 'Sheamus',
     dateWon: '11-22-2015',
     dateLost: '12-14-2015',
     show: 'Survivor Series',
     previousChampion: 'Roman Reigns',
+  },
+  {
+    titleHolder: 'Roman Reigns',
+    dateWon: '11-22-2015',
+    dateLost: '11-22-2015',
+    show: 'Survivor Series',
+    previousChampion: 'Vacated',
   },
   {
     titleHolder: 'Vacated',
@@ -184,18 +184,18 @@ let wweChampions = [
     previousChampion: 'Randy Orton',
   },
   {
-    titleHolder: 'Daniel Bryan',
-    dateWon: '08-18-2013',
-    dateLost: '08-18-2013',
-    show: 'SummerSlam',
-    previousChampion: 'John Cena',
-  },
-  {
     titleHolder: 'Randy Orton',
     dateWon: '08-18-2013',
     dateLost: '09-15-2013',
     show: 'SummerSlam',
     previousChampion: 'Daniel Bryan',
+  },
+  {
+    titleHolder: 'Daniel Bryan',
+    dateWon: '08-18-2013',
+    dateLost: '08-18-2013',
+    show: 'SummerSlam',
+    previousChampion: 'John Cena',
   },
   {
     titleHolder: 'John Cena',
@@ -233,13 +233,6 @@ let wweChampions = [
     previousChampion: 'Alberto Del Rio',
   },
   {
-    titleHolder: 'CM Punk',
-    dateWon: '08-14-2011',
-    dateLost: '08-14-2011',
-    show: 'SummerSlam',
-    previousChampion: 'John Cena',
-  },
-  {
     titleHolder: 'Alberto Del Rio',
     dateWon: '08-14-2011',
     dateLost: '09-18-2011',
@@ -247,11 +240,11 @@ let wweChampions = [
     previousChampion: 'CM Punk',
   },
   {
-    titleHolder: 'Rey Mysterio',
-    dateWon: '07-25-2011',
-    dateLost: '07-25-2011',
-    show: 'Raw',
-    previousChampion: 'Vacated',
+    titleHolder: 'CM Punk',
+    dateWon: '08-14-2011',
+    dateLost: '08-14-2011',
+    show: 'SummerSlam',
+    previousChampion: 'John Cena',
   },
   {
     titleHolder: 'John Cena',
@@ -259,6 +252,13 @@ let wweChampions = [
     dateLost: '08-14-2011',
     show: 'Raw',
     previousChampion: 'Rey Mysterio',
+  },
+  {
+    titleHolder: 'Rey Mysterio',
+    dateWon: '07-25-2011',
+    dateLost: '07-25-2011',
+    show: 'Raw',
+    previousChampion: 'Vacated',
   },
   {
     titleHolder: 'Vacated',
@@ -310,18 +310,18 @@ let wweChampions = [
     previousChampion: 'Batista',
   },
   {
-    titleHolder: 'John Cena',
-    dateWon: '02-21-2010',
-    dateLost: '02-21-2010',
-    show: 'Elimination Chamber',
-    previousChampion: 'Sheamus',
-  },
-  {
     titleHolder: 'Batista',
     dateWon: '02-21-2010',
     dateLost: '03-28-2010',
     show: 'Elimination Chamber',
     previousChampion: 'John Cena',
+  },
+  {
+    titleHolder: 'John Cena',
+    dateWon: '02-21-2010',
+    dateLost: '02-21-2010',
+    show: 'Elimination Chamber',
+    previousChampion: 'Sheamus',
   },
   {
     titleHolder: 'Sheamus',
@@ -330,6 +330,7 @@ let wweChampions = [
     show: 'TLC: Tables, Ladders & Chairs',
     previousChampion: 'John Cena',
   },
+
   {
     titleHolder: 'John Cena',
     dateWon: '10-25-2009',
@@ -863,18 +864,18 @@ let wweChampions = [
     previousChampion: 'Hulk Hogan',
   },
   {
-    titleHolder: 'Yokozuna',
-    dateWon: '04-04-1993',
-    dateLost: '04-04-1993',
-    show: 'WrestleMania IX',
-    previousChampion: 'Bret Hart',
-  },
-  {
     titleHolder: 'Hulk Hogan',
     dateWon: '04-04-1993',
     dateLost: '06-13-1993',
     show: 'WrestleMania IX',
     previousChampion: 'Yokozuna',
+  },
+  {
+    titleHolder: 'Yokozuna',
+    dateWon: '04-04-1993',
+    dateLost: '04-04-1993',
+    show: 'WrestleMania IX',
+    previousChampion: 'Bret Hart',
   },
   {
     titleHolder: 'Bret Hart',
@@ -967,19 +968,20 @@ let wweChampions = [
     show: 'Superstars of Wrestling',
     previousChampion: 'Ted DiBiase',
   },
-  {
-    titleHolder: 'Andr� the Giant',
-    dateWon: '02-05-1988',
-    dateLost: '02-05-1988',
-    show: 'The Main Event I',
-    previousChampion: 'Hulk Hogan',
-  },
+
   {
     titleHolder: 'Ted DiBiase',
     dateWon: '02-05-1988',
     dateLost: '02-13-1988',
     show: 'The Main Event I',
-    previousChampion: 'Andr� the Giant',
+    previousChampion: 'Andre the Giant',
+  },
+  {
+    titleHolder: 'Andre the Giant',
+    dateWon: '02-05-1988',
+    dateLost: '02-05-1988',
+    show: 'The Main Event I',
+    previousChampion: 'Hulk Hogan',
   },
   {
     titleHolder: 'Hulk Hogan',
@@ -1075,10 +1077,16 @@ let wweChampions = [
 ]
 
 const updatedChampions = (champions) => {
+  let vacated = 0
   const x = champions.reverse().map((champion, index) => {
-    return {
-      ...champion,
-      titleHolderNumber: index === 0 ? 1 : index + 1,
+    if (champion.titleHolder === `Vacated`) {
+      vacated++
+      return champion
+    } else {
+      return {
+        ...champion,
+        titleHolderNumber: index === 0 ? 1 : index + 1 - vacated,
+      }
     }
   })
 
@@ -1105,11 +1113,6 @@ const championUpdate = async (prisma) => {
 }
 
 const addChampions = async (champion, prisma) => {
-  const daysAsChampion = dateDiff(
-    new Date(champion.dateWon),
-    new Date(champion.dateLost)
-  )
-
   await prisma.champion.create({
     data: {
       titleHolder: champion.titleHolder,
@@ -1117,7 +1120,7 @@ const addChampions = async (champion, prisma) => {
       dateWon: new Date(champion.dateWon),
       dateLost: new Date(champion.dateLost),
       show: champion.show,
-      previousChampion: champion.previousChampion,
+      // previousChampion: champion.previousChampion,
       currentChampion: champion.currentChampion,
     },
   })
@@ -1129,7 +1132,7 @@ const addChampions = async (champion, prisma) => {
 // ;(async () => {
 //   const { prismaClient } = await createApolloServer()
 
-//   const championsToInsert = await updatedChampions(wweChampions)
+//   const championsToInsert = wweChampions.reverse()
 //   await Promise.all(
 //     championsToInsert.map(async (champion) => {
 //       await addChampions(champion, prismaClient)
@@ -1143,12 +1146,13 @@ const addChampions = async (champion, prisma) => {
 ;(async () => {
   const { prismaClient } = await createApolloServer()
 
-  // const championsToInsert = await updatedChampions(wweChampions)
-  // await Promise.all(
-  //   championsToInsert.map(async (champion) => {
-  //     await addChampions(champion, prismaClient)
-  //   })
-  // )
+  const championsToInsert = await updatedChampions(wweChampions)
+  console.log(championsToInsert)
+  await Promise.all(
+    championsToInsert.map(async (champion) => {
+      await addChampions(champion, prismaClient)
+    })
+  )
 
   await prismaClient.champion.updateMany({
     data: {
@@ -1156,7 +1160,11 @@ const addChampions = async (champion, prisma) => {
     },
   })
 
-  console.log('updated')
+  //   const find = await prismaClient.champion.findFirst({
+  //     where: { titleHolder: `Drew McIntyre` },
+  //   })
+
+  //   console.log(find)
 
   prismaClient.$disconnect()
   Promise.resolve(true)

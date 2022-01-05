@@ -1,6 +1,8 @@
 export default async (parent, args, champion) => {
   const { titleHolder, dateWon, show } = args.input
-  const previousChampion = await champion.findFirst()
+  const previousChampion = await champion.findFirst({
+    where: { currentChampion: true },
+  })
 
   if (previousChampion.currentChampion) {
     const updateOldChamp = await champion.update({

@@ -26,7 +26,7 @@ export default gql`
     numberOfReigns: Int
     daysAsChampion: Int
     previousChampion: String
-    currentChampion: Boolean
+    currentChampion: Boolean!
   }
 
   type ChampionPayload {

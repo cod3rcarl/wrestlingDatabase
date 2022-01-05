@@ -2,26 +2,25 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
   shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
 }
 
 generator client {
-  provider = "prisma-client-js"
+  provider      = "prisma-client-js"
   binaryTargets = ["native"]
 }
 
 model Champion {
-  id                   String       @id @default(uuid())
-  titleHolder          String
-  titleHolderNumber    Int?
-  dateWon              DateTime
-  dateLost             DateTime?
-  show                 String
-  previousChampion     String?
-  currentChampion      Boolean?
+  id                String    @id @default(uuid())
+  titleHolder       String
+  titleHolderNumber Int?
+  dateWon           DateTime
+  dateLost          DateTime?
+  show              String
+  currentChampion   Boolean?
 
 
-    @@map(name: "champion")
+  @@map(name: "champion")
 }

@@ -3,17 +3,24 @@ import { buildQueryFromArgs, dateDiff } from './utils.js'
 export const queryChampion = async (args, prisma) => {
   const search = buildQueryFromArgs(args)
 
-  const champion = await prisma.champion.findFirst({
-    where: search.where,
-  })
-
-  return champion
+  if (args.currentChamp) {
+    const currentChampion = await prisma.champion.findFirst({
+      where: search.where,
+      select: { titleHolder: true, currentChampion: true },
+    })
+    return currentChampion
+  } else {
+    const champion = await prisma.champion.findFirst({
+      where: search.where,
+    })
+    return champion
+  }
 }
 
 export const queryChampions = async (args, prisma) => {
   const search = buildQueryFromArgs(args)
 
-  const champions = await prisma.champion.findMany({
+  const champions = prisma.champion.findMany({
     where: search.where,
   })
 
